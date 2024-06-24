@@ -1,0 +1,125 @@
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(155, 231, 241);
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(/AFA/Asets/Img/logo-afa-dorado.svg);
+    background-color: white;
+    padding: 50px;
+    image-orientation:inherit;
+    font-weight: 600;
+}
+
+.menu {
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item {
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+
+    :hover {
+        background-color: white;
+        color: black;
+        border: 2px solid gold;
+        font-size: larger;
+    }
+
+}
+
+h2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+p {
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.fotos {
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    color: white;
+}
+
+.copa {
+    display: flexbox;
+    margin: 50px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.p-fotos {
+    display: flex;
+    font-size: medium;
+    color: white;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    border: 2px solid white;
+    margin: 10px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+/* copa amercica */
+
+.h2america {
+    margin: 100px;
+}
+
+.p-america {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.p-acordeon {
+    color: black;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p-inacordeon {
+    color: black;
+    display: inline-block;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.videofinal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
