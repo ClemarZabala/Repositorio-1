@@ -9,8 +9,14 @@ h1 {
     background-image: url(/AFA/Asets/Img/logo-afa-dorado.svg);
     background-color: white;
     padding: 50px;
-    image-orientation:inherit;
+    image-orientation: inherit;
     font-weight: 600;
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .menu {
@@ -122,4 +128,18 @@ footer img {
     justify-content: center;
     text-align: center;
 
+}
+
+/* Grid copa america*/
+
+.grids {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    color: white;
+    justify-content: center;
+    text-align: center;
 }
