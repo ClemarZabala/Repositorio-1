@@ -11,10 +11,10 @@ h1 {
     padding: 50px;
     image-orientation: inherit;
     font-weight: 600;
-  
+
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -54,6 +54,7 @@ p {
 }
 
 .fotos {
+    display: inline-block;
     justify-content: center;
     text-align: center;
     margin: 100px;
@@ -61,7 +62,6 @@ p {
 }
 
 .copa {
-    display: flexbox;
     margin: 50px;
     height: 500px;
     justify-content: center;
@@ -70,7 +70,8 @@ p {
 }
 
 .p-fotos {
-    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: medium;
     color: white;
     margin: 0px;
