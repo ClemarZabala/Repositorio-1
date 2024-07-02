@@ -144,3 +144,85 @@ footer img {
     justify-content: center;
     text-align: center;
 }
+
+/* Finalissima*/
+
+.h2-final {
+    color: white;
+    margin: 70px;
+}
+
+
+.grid-finalisima {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    margin: 100px;
+
+}
+
+.resumen {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.messicopa {
+    display: flex;
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+}
+
+/* extras*/
+
+.p-agradecimiento {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.fuente {
+    display: block;
+
+
+}
+
+h3 {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+.fuente1 {
+    display: block;
+    color: white;
+    margin: 20px;
+}
+
+/* Qatar*/
+h3 {
+    font-style: italic;
+    display: block;
+    margin: 100px;
+}
+
+.qatar {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.imagenes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
